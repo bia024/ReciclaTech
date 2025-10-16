@@ -8,7 +8,7 @@ body {
     // background-image: url(./assets/earth.jpg);
     background-image: url(./assets/capa-artigo-sustentabilidade.jpg);
     background-repeat: no-repeat;
-    // background-size: cover;
+    background-size: cover;
     // opacity: 0.6;
     // overflow: hidden;
     height: 200vh;
@@ -17,9 +17,10 @@ body {
 }
 
 #cabeçalho {
+    border-radius: 30px 0 0 0;
     // opacity: 0.7;
     background-color: #f3f5f89a;
-    border: solid;
+   
 
     width: 100%;
     // position: fixed; 
@@ -35,21 +36,21 @@ body {
         display: none;
     }
     img {
-        padding-left: 2rem;
+        padding-left: 1rem;
         width: 15vw;
-        border: solid;
+       
     }
 
     .navigationBar{
         width: 60%;
-        border: solid;
+       
         display: flex;
         justify-content: space-evenly;
     }
 
     .navigationBar ul {
         width: 100%;
-        border: solid;
+       
         // height: 12vh;
         font-size: 20px;
         display: flex;
@@ -58,7 +59,7 @@ body {
     }
 
     .navigationBar li{
-        border: solid;
+       
         list-style: none;
     }
 
@@ -83,7 +84,8 @@ body {
         color: #f3f5f8;
         background-color: #21c05c;
         border: none;
-        border-radius: 8px;
+        // border-radius: 8px;
+        border-radius: 30px 0px 30px 30px;
         cursor: pointer;
     }
 }
@@ -96,13 +98,14 @@ body {
 section {
     height: 80vh;
     background-color: #f3f5f89a;
-    margin: 2rem;
-    border: solid;
+    // margin: 2rem;   PENSAR 2 VEZES ANTES DE ATIVAR OU INATIVAR.
+   
     display: flex;
 
     .articleFirst {
+    width: 50vw;
     margin: 3rem;
-    border: solid;
+   
     display: flex;
     flex-direction: column;
     // align-items: flex-start;
@@ -115,59 +118,113 @@ section {
     }
     p{
         // text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
-    div {
-        border: solid;
-    }
+    // div {
+    //     // width: 60%;
+    //     
+    //     display: flex;
+    //     justify-content: space-evenly;
+    // }
     .buttonsBox {
-        width: 50%;
+        width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start; // mantém os botões à esquerda
+        align-items: center;
+        gap: 1rem; // controla o espaço ENTRE os botões
+        margin: 0;
+        padding: 0;
+
         button {
-            text-align: center;
-        width: 7rem;
-        height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        // text-align: center;
+        width: 12vw;
+        height: 7vh;
         // margin-right: 10px; 
-        border: solid;
+        
+        border-radius: 5rem;
         color:#f3f5f8;
         cursor: pointer;
     }
     .giveBtn {
-        // border: solid;
-        flex: 1;
+        // 
+        // flex: 1;
         background-color:#21c05c;
+        border-radius: 30px 0px 30px 30px;
+        // padding: 0.6rem;
     }
     .adquireBtn {
         // text-align: center;
-        flex:1;
+        // flex:1;
         background-color:#f3f5f8;
         color:#2563eb;
+        border-radius: 30px 0px 30px 30px;
     }
     .giveImgButton{
         width: 2vw;
         // height: 1vh;
         // text-align: center;
+        border-radius: 30px 0px 30px 30px;
     }
     .adquireImgButton {
         width: 2vw;
     }
-    }
+}
     // button:nth-of-type(1),
     // button:nth-of-type(2) {
     //     display: inline-block;
     // }
-
+}
     .sustentableImg {
-        // width: 15vw;
-        // height: 20vh;
+        width: 20vw;
+        height:60vh;
+        margin: 2rem;
+        // text-align: center;
         // padding: 3rem;
-        border: solid;
+        // border: solid red;
         // margin: 2rem;
     }
+    .articleSecond {
+        margin: 2rem;
+        width: 50vw;
+        // border: groove;
+    }
 }
+
+#satisfactionSearch {
+    width: 100%;
+    background-color: #f3f5f8;
+    border: solid;
+
+    article {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: solid;
+    }
+    h2{
+        color:#21c05c;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+
 }
+
+
+
+
+
+
+
 
 
 
