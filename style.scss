@@ -5,15 +5,28 @@
 }
 
 body {
+    // background-image: url(./assets/earth.jpg);
+    background-image: url(./assets/capa-artigo-sustentabilidade.jpg);
+    background-repeat: no-repeat;
+    // background-size: cover;
+    // opacity: 0.6;
+    // overflow: hidden;
     height: 200vh;
+    margin: 2rem;
     // margin: 8px; NAO ATIVAR
 }
 
 #cabeçalho {
+    // opacity: 0.7;
+    background-color: #f3f5f89a;
+    border: solid;
+
     width: 100%;
-    position: fixed;
-    margin: 20px;
-    padding: 20px;
+    // position: fixed; 
+    //NAO ATIVAR. SE ATIVAR, VAI FICAR POR CIMA DO ARTICLE
+    // margin: 1rem;
+    // padding: 0.5rem;;
+    //talvez mexer no padding ou tirar
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,17 +35,22 @@ body {
         display: none;
     }
     img {
+        padding-left: 2rem;
         width: 15vw;
+        border: solid;
     }
 
     .navigationBar{
-        width: 50%; 
-        // border: solid;
+        width: 60%;
+        border: solid;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .navigationBar ul {
-        // border: groove;
-        height: 12vh;
+        width: 100%;
+        border: solid;
+        // height: 12vh;
         font-size: 20px;
         display: flex;
         align-items: center;
@@ -40,6 +58,7 @@ body {
     }
 
     .navigationBar li{
+        border: solid;
         list-style: none;
     }
 
@@ -48,24 +67,111 @@ body {
         text-decoration: none;
     }
 
-    .navigationBar button {
-        padding: 1rem;   
-        font-size: 20px;
-        height: 10vh;
-        color: #f3f5f8;
-        background-color: #21c05c;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-    .navigationBar .menu-icon {
+    .navigationBar .material-symbols-outlined {
         display: none;
         font-size: 32px;
         cursor: pointer;
         user-select: none;
         padding: 5px;
     }
+    #btnHeader {
+         margin: 6px;
+         font-weight: 600;
+        padding: 0.6rem;   
+        font-size: 15px;
+        height: 10vh;
+        color: #f3f5f8;
+        background-color: #21c05c;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 }
+
+
+
+
+//MAIN
+
+section {
+    height: 80vh;
+    background-color: #f3f5f89a;
+    margin: 2rem;
+    border: solid;
+    display: flex;
+
+    .articleFirst {
+    margin: 3rem;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-start;
+    gap: 1rem;
+
+    h1{
+        // font-weight: 600;
+        // text-align: center;
+        font-size: 4rem;
+    }
+    p{
+        // text-align: center;
+        font-size: 1rem;
+    }
+
+    div {
+        border: solid;
+    }
+    .buttonsBox {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        button {
+            text-align: center;
+        width: 7rem;
+        height: 3rem;
+        // margin-right: 10px; 
+        border: solid;
+        color:#f3f5f8;
+        cursor: pointer;
+    }
+    .giveBtn {
+        // border: solid;
+        flex: 1;
+        background-color:#21c05c;
+    }
+    .adquireBtn {
+        // text-align: center;
+        flex:1;
+        background-color:#f3f5f8;
+        color:#2563eb;
+    }
+    .giveImgButton{
+        width: 2vw;
+        // height: 1vh;
+        // text-align: center;
+    }
+    .adquireImgButton {
+        width: 2vw;
+    }
+    }
+    // button:nth-of-type(1),
+    // button:nth-of-type(2) {
+    //     display: inline-block;
+    // }
+
+    .sustentableImg {
+        // width: 15vw;
+        // height: 20vh;
+        // padding: 3rem;
+        border: solid;
+        // margin: 2rem;
+    }
+}
+}
+
+
+
+
 
 
 
@@ -78,9 +184,5 @@ body {
         ul {
             display: none;
         }
-        img {
-            
-            
-        }  
     }
 }

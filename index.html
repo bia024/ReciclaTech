@@ -11,21 +11,40 @@
         <img src="./assets/Logo.png" alt="logo-ReciclaTech" />
         <img class="responsiveImg" src="./assets/recicla.png" alt="Recicla-media-query" />
         <nav class="navigationBar">
-            <div class="menu-icon">&#9776;</div>
+            <span class="material-symbols-outlined">menu</span>
             <ul>
                 <li><a href="#">Como Funciona</a></li>
                 <li><a href="#">Doar</a></li>
                 <li><a href="#">Adquirir</a></li>
-                <button id="btnCabeçalho">Começar Agora</button>
+                <!-- <button id="btnCabeçalho">Começar Agora</button> -->
             </ul>
+             <button id="btnHeader">Começar Agora</button>
         </nav>
 
     </header>
     <main>
         <section>
-            <article>
-
+            <article class="articleFirst">
+                <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
+                <p>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. 
+                    Simples, gratuito e sustentável!
+                </p>
+                <div class="buttonsBox">
+                    <button class="giveBtn">Quero doar!
+                        <img class="giveImgButton" src="./assets/doadores.png" alt="">
+                    </button>
+                    <button class="adquireBtn">Quero adquirir!
+                        <img class="adquireImgButton" src="./assets/adquirintes.png" alt="">
+                    </button>
+                </div>
+                <!-- <img class="sustentableImg" src="./assets/sustentabilidade.png" alt="logo-sustentable"/> -->
             </article>
+            <article>
+            <figure class="sustentableImg">
+                <img src="./assets/sustentabilidade.png" alt="logo-sustentable"/>
+            </figure>
+            </article>
+            
         </section>
     </main>
 </body>
