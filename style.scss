@@ -1,209 +1,86 @@
-// * {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
-
-// body {
-//     height: 200vh;
-//     // margin: 8px; NAO ATIVAR
-// }
-
-// #cabeçalho {
-//     width: 100%;
-//     position: fixed;
-//     margin: 20px;
-//     padding: 20px;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     border-bottom: 0.7px solid #b4aeae;
-    
-//     img {
-//         width: 15vw;
-//     }
-
-//     .navigationBar{
-//         width: 50%; 
-//         // border: solid;
-//     }
-
-//     .navigationBar ul {
-//         // border: groove;
-//         height: 12vh;
-//         font-size: 20px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-evenly;
-//     }
-
-//     .navigationBar li{
-//         list-style: none;
-//     }
-
-//     .navigationBar a {
-//         color: #000;
-//         text-decoration: none;
-//     }
-
-//     .navigationBar button {
-//         padding: 1rem;   
-//         font-size: 20px;
-//         height: 10vh;
-//         color: #f3f5f8;
-//         background-color: #21c05c;
-//         border: none;
-//         border-radius: 3px;
-//         cursor: pointer;
-//     }
-//     .navigationBar .menu-icon {
-//         display: none;
-//         font-size: 32px;
-//         cursor: pointer;
-//         user-select: none;
-//         padding: 5px;
-//     }
-// }
-
-
-
-// @media (max-width: 700px){
-//     //adicionar um menu hamburguer com hover
-//     #cabeçalho{
-//         .menu-icon {
-//             display: block;
-//         } 
-
-//         .navigationBar ul {
-//         display: none;
-//         flex-direction: column;
-//         align-items: flex-start;
-//         background-color: #fff;
-//         position: absolute;
-//         top: 100%;
-//         right: 0;
-//         width: 100vw;
-//         padding: 20px;
-//         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-//         gap: 15px;
-//         z-index: 99;
-//     }
-
-//     .navigationBar:hover ul {
-//         display: flex;
-//     }
-//     #btnCabeçalho {
-//         width: 100%;
-//     }
-//         ul {
-//             display: none;
-//         }
-//         img {
-            
-            
-//         }  
-//     }
-// }
-
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  height: 200vh;
-  /* margin: 8px; NAO ATIVAR */
+    height: 200vh;
+    // margin: 8px; NAO ATIVAR
 }
 
 #cabeçalho {
-  width: 100%;
-  position: fixed;
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 0.7px solid #b4aeae;
-  background-color: #fff;
-  z-index: 1000;
-}
-
-#cabeçalho img {
-  width: 15vw;
-}
-
-.navigationBar {
-  width: 50%;
-  position: relative;
-}
-
-.navigationBar ul {
-  height: 12vh;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.navigationBar li {
-  list-style: none;
-}
-
-.navigationBar a {
-  color: #000;
-  text-decoration: none;
-}
-
-.navigationBar button {
-  padding: 1rem;
-  font-size: 20px;
-  height: 10vh;
-  color: #f3f5f8;
-  background-color: #21c05c;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.navigationBar .menu-icon {
-  display: none;
-  font-size: 32px;
-  cursor: pointer;
-  user-select: none;
-  padding: 5px;
-}
-
-/* RESPONSIVO */
-@media (max-width: 700px) {
-  .navigationBar .menu-icon {
-    display: block;
-  }
-
-  .navigationBar ul {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #fff;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 100vw;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    gap: 15px;
-    z-index: 99;
-  }
-
-  .navigationBar:hover ul {
-    display: flex;
-  }
-  .navigation-bar li {
-    text-align: center;
-  }
-
-  .navigationBar button {
     width: 100%;
-  }
+    position: fixed;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.7px solid #b4aeae;
+    .responsiveImg {
+        display: none;
+    }
+    img {
+        width: 15vw;
+    }
+
+    .navigationBar{
+        width: 50%; 
+        // border: solid;
+    }
+
+    .navigationBar ul {
+        // border: groove;
+        height: 12vh;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navigationBar li{
+        list-style: none;
+    }
+
+    .navigationBar a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .navigationBar button {
+        padding: 1rem;   
+        font-size: 20px;
+        height: 10vh;
+        color: #f3f5f8;
+        background-color: #21c05c;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .navigationBar .menu-icon {
+        display: none;
+        font-size: 32px;
+        cursor: pointer;
+        user-select: none;
+        padding: 5px;
+    }
+}
+
+
+
+@media (max-width: 700px){
+    //adicionar um menu hamburguer com hover
+    #cabeçalho{
+        .menu-icon {
+            display: block;
+        } 
+        ul {
+            display: none;
+        }
+        img {
+            
+            
+        }  
+    }
 }
