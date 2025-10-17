@@ -162,7 +162,7 @@ section .articleSecond {
 }
 
 #howWorks {
-  border: solid;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -170,11 +170,48 @@ section .articleSecond {
   font-size: 1.2rem;
 }
 
-.infoWorks {
+#donors {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.infoWorks1, .infoWorks2 {
   width: 30vw;
-  border: solid;
-  background-color: #f3f5f8;
-  border-radius: 50px;
+  height: 60vh;
+  border-radius: 100px;
+  background-color: #21c05c;
+  color: #f3f5f8;
+}
+.infoWorks1 img, .infoWorks2 img {
+  width: 3vw;
+}
+.infoWorks1 figure, .infoWorks2 figure {
+  padding: 1rem;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.infoWorks1 p, .infoWorks2 p {
+  font-size: 1.2rem;
+}
+.infoWorks1 ol, .infoWorks2 ol {
+  padding: 1.5rem;
+}
+.infoWorks1 li, .infoWorks2 li {
+  padding: 0.5rem;
+}
+.infoWorks1 p, .infoWorks2 p {
+  text-align: center;
+}
+
+.howWorks-article {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 @media (max-width: 700px) {
