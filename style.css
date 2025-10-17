@@ -175,6 +175,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
 }
 
 #donors {
+  padding: 2rem;
   display: flex;
   justify-content: space-evenly;
 }
