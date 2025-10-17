@@ -6,11 +6,16 @@
 }
 
 body {
+  /*background-image: url(./assets/earth.jpg);*/
   background-image: url(./assets/capa-artigo-sustentabilidade.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200vh;
   margin: 2rem;
+}
+
+#cabeçalho .responsiveImg {
+  display: none;
 }
 
 #cabeçalho {
@@ -21,9 +26,6 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 0.7px solid #b4aeae;
-}
-#cabeçalho .responsiveImg {
-  display: none;
 }
 #cabeçalho img {
   padding-left: 1rem;
@@ -123,12 +125,14 @@ section .articleFirst .buttonsBox .giveImgButton {
 section .articleFirst .buttonsBox .adquireImgButton {
   width: 2vw;
 }
-section .sustentableImg {
+
+.sustentableImg {
   width: 20vw;
   height: 60vh;
   margin: 2rem;
 }
-section .articleSecond {
+
+.articleSecond {
   margin: 2rem;
   width: 50vw;
 }
@@ -210,7 +214,7 @@ section .articleSecond {
   height: 20vh;
   text-align: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: column;
 }
 

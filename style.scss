@@ -5,13 +5,16 @@
 }
 
 body {
-    // background-image: url(./assets/earth.jpg);
+    /*background-image: url(./assets/earth.jpg);*/
     background-image: url(./assets/capa-artigo-sustentabilidade.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200vh;
     margin: 2rem;
-    // margin: 8px; NAO ATIVAR
+}
+
+#cabeçalho .responsiveImg {
+    display: none;
 }
 
 #cabeçalho {
@@ -29,10 +32,6 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 0.7px solid #b4aeae;
-
-    .responsiveImg {
-        display: none;
-    }
 
     img {
         padding-left: 1rem;
@@ -92,7 +91,6 @@ body {
 section {
     height: 80vh;
     background-color: #f3f5f89a;
-    // margin: 2rem;   PENSAR 2 VEZES ANTES DE ATIVAR OU INATIVAR.
     display: flex;
 
     .articleFirst {
@@ -114,7 +112,7 @@ section {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        gap: 1rem
+        gap: 1rem;
         margin: 0;
         padding: 0;
 
@@ -147,6 +145,7 @@ section {
             width: 2vw;
         }
     }
+}
 }
     .sustentableImg {
         width: 20vw;
@@ -247,7 +246,7 @@ section {
     height: 20vh;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: column;
 }
 
