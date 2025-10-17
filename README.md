@@ -33,18 +33,21 @@ O projeto consiste em uma **página web responsiva**, desenvolvida com HTML e SC
 
 ## 📂 Estrutura do Projeto
 
-recicla-tech/
-├── index.html         # Arquivo principal do site
-├── style.scss         # Estilização do site usando SCSS
-├── assets/            # Pasta com imagens e ícones
-│   ├── Logo.png
-│   ├── recicla.png
-│   ├── sustentabilidade.png
-│   ├── doadores.png
-│   ├── adquirintes.png
-│   ├── headphones.jpg
-│   ├── notebook.jpg
-│   ├── telephone.jpg
-│   └── star.png
-├── README.md          # Este arquivo de documentação
-└── .gitignore         # Arquivo para ignorar arquivos na versão
+ReciclaTech/
+├── assets/
+│ ├── adquirintes.png
+│ ├── capa-artigo-sustentabilidade.png
+│ ├── doadores.png
+│ ├── earth.jpg
+│ ├── headphone.jpg
+│ ├── iconUser.png
+│ ├── Logo.png
+│ ├── notebook.jpg
+│ ├── star.png
+│ ├── sustentabilidade.png
+│ └── telephone.jpg
+├── index.html
+├── style.css
+├── style.css.map
+├── style.scss
+└── README.md
