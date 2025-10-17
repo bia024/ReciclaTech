@@ -15,6 +15,14 @@ body {
   height: 200vh;
   margin: 2rem;
 }
+body p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+body h1, body h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
 
 #cabeçalho .responsiveImg {
   display: none;
@@ -46,6 +54,9 @@ body {
   justify-content: space-evenly;
 }
 #cabeçalho .navigationBar li {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   list-style: none;
 }
 #cabeçalho .navigationBar a {
@@ -84,26 +95,30 @@ section .articleFirst {
   margin: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2em;
 }
 section .articleFirst h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  font-weight: 700;
 }
 section .articleFirst .buttonsBox {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   margin: 0;
   padding: 0;
 }
 section .articleFirst .buttonsBox button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 12vw;
-  height: 7vh;
+  width: 13vw;
+  height: 10vh;
   border-radius: 5rem;
   color: #f3f5f8;
   cursor: pointer;
@@ -128,7 +143,6 @@ section .articleFirst .buttonsBox .adquireImgButton {
 .sustentableImg {
   width: 20vw;
   height: 60vh;
-  margin: 2rem;
 }
 
 .articleSecond {
@@ -158,8 +172,6 @@ section .articleFirst .buttonsBox .adquireImgButton {
   text-shadow: 0 2px 1px #000;
 }
 #satisfactionSearch p {
-  font-size: 1.5rem;
-  font-weight: bold;
   color: #f3f5f8;
   text-shadow: 0 2px 1px #000;
 }

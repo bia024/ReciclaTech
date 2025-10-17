@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+// h1
 body {
     /*background-image: url(./assets/earth.jpg);*/
     background-image: url(./assets/capa-artigo-sustentabilidade.jpg);
@@ -13,6 +14,16 @@ body {
     background-attachment: fixed;
     height: 200vh;
     margin: 2rem;
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+    }
+
+    h1, h2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+    }
 }
 
 #cabeçalho .responsiveImg {
@@ -55,7 +66,9 @@ body {
     }
 
     .navigationBar li{
-       
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+       font-weight: 600;
         list-style: none;
     }
 
@@ -100,10 +113,12 @@ section {
     margin: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2em;
 
     h1{
-        font-size: 4rem;
+        font-size: 3rem;
+        font-weight: bold;
+        font-weight: 700;
     }
     // p{
     //     font-size: 1.2rem;
@@ -111,19 +126,22 @@ section {
 
     .buttonsBox {
         width: 100%;
+        // height: 1vh;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
         margin: 0;
         padding: 0;
 
         button {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.1rem;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 12vw;
-        height: 7vh;
+        width: 13vw;
+        height: 10vh;
         border-radius: 5rem;
         color:#f3f5f8;
         cursor: pointer;
@@ -152,7 +170,7 @@ section {
     .sustentableImg {
         width: 20vw;
         height:60vh;
-        margin: 2rem;
+        // margin: 2rem;
     }
 
     .articleSecond {
@@ -180,13 +198,14 @@ section {
     h2{
         color:#21c05c;
         font-size: 3rem;
+        // deixo 3rem ou 25px?
         font-weight: bold;
         text-shadow: 0 2px 1px #000 ;
     }
 
     p {
-        font-size: 1.5rem;
-        font-weight: bold;
+        // font-size: 1.5rem;
+        // font-weight: bold;
         color:#f3f5f8;
         text-shadow: 0 2px 1px #000;
     }
