@@ -173,7 +173,7 @@ section {
         // margin: 2rem;
     }
 
-    .articleSecond {
+    .kmgMainSection {
         margin: 2rem;
         width: 50vw;
     }
@@ -224,7 +224,9 @@ section {
 }
 
 #donors {
-    padding: 2rem;
+    // border: solid;
+    // height: 150vh;
+    // padding: 2rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -268,11 +270,12 @@ section {
 .howWorks-article {   
     
     width: 100%;
-    // height: 20vh;
+    // height: 100vh;
     // text-align: center;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    padding: 2rem;
 }
 
 
@@ -280,15 +283,14 @@ section {
     // padding: 0.5rem 0 0 1rem;
     width: 100%;
     height: 100vh;
+    padding: 2rem;
     // border: solid;
     // text-align: center;
+    article {
+        
+    }
     p{
         font-size: 20px;
-    }
-    padding: 2rem;
-    article {
-        // border: solid;
-        // padding: 1rem;
     }
 }
 
@@ -302,6 +304,7 @@ section {
 .category {
     margin: 25px;
     padding: 2rem;
+    background-color:#f3f5f8;
     border: solid #21c05c;
     border-radius: 10px;
     display: flex;
@@ -371,19 +374,10 @@ section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        img {
-            // width: 9vw;
-            // height: 6vh;
-        }
-        .donorsParagraph {
-            // font-weight: bold;
-            // text-align: center;
-
-        }
     }
 }
 
-
+// donors
 .names {
     // width: 20px;
     // border: solid;

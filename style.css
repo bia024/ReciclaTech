@@ -145,7 +145,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
   height: 60vh;
 }
 
-.articleSecond {
+.kmgMainSection {
   margin: 2rem;
   width: 50vw;
 }
@@ -186,7 +186,6 @@ section .articleFirst .buttonsBox .adquireImgButton {
 }
 
 #donors {
-  padding: 2rem;
   display: flex;
   justify-content: space-evenly;
 }
@@ -226,6 +225,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  padding: 2rem;
 }
 
 #availableProducts {
@@ -236,6 +236,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
 #availableProducts p {
   font-size: 20px;
 }
+
 .categories {
   width: 100%;
   display: flex;
@@ -245,6 +246,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
 .category {
   margin: 25px;
   padding: 2rem;
+  background-color: #f3f5f8;
   border: solid #21c05c;
   border-radius: 10px;
   display: flex;
@@ -303,6 +305,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .names {
   display: flex;
   align-items: center;
