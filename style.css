@@ -194,7 +194,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
   width: 30vw;
   height: 60vh;
   border-radius: 30px;
-  background-color: #21c05c;
+  background-color: #f3f5f8;
   color: #f3f5f8;
 }
 .infoWorks1 img, .infoWorks2 img {
@@ -202,16 +202,31 @@ section .articleFirst .buttonsBox .adquireImgButton {
 }
 .infoWorks1 figure, .infoWorks2 figure {
   padding: 1rem;
-  width: 20vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
+.infoWorks1 figure figcaption, .infoWorks2 figure figcaption {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
+.infoWorks1 figure .toDonors, .infoWorks2 figure .toDonors {
+  color: #21c05c;
+  width: 15vw;
+}
+.infoWorks1 figure .toAdquirentes, .infoWorks2 figure .toAdquirentes {
+  color: #2563eb;
+  width: 15vw;
+}
 .infoWorks1 p, .infoWorks2 p {
   font-size: 1.2rem;
+  color: #000;
 }
 .infoWorks1 ol, .infoWorks2 ol {
   padding: 1.5rem;
+  color: #000;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
 }
 .infoWorks1 li, .infoWorks2 li {
   padding: 0.5rem;
@@ -233,6 +248,9 @@ section .articleFirst .buttonsBox .adquireImgButton {
   height: 100vh;
   padding: 2rem;
 }
+#availableProducts p {
+  font-family: "Poppins", sans-serif;
+}
 
 .categories {
   width: 100%;
@@ -244,6 +262,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
   width: 100%;
   margin: 25px;
   padding: 2rem;
+  font-family: "Poppins", sans-serif;
   background-color: #fff;
   border: solid #21c05c;
   border-radius: 10px;
@@ -305,6 +324,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
 
 .names {
   width: 10vw;
+  font-family: "Inter", sans-serif;
 }
 
 .articleFirst p {
@@ -327,7 +347,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
 .areUReady {
   width: 100%;
   height: 80vh;
-  background-color: #f3f5f8;
+  background-color: #21c05c;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -357,7 +377,6 @@ section .articleFirst .buttonsBox .adquireImgButton {
 }
 .areUReady .clickHere {
   width: 50%;
-  border: solid;
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
@@ -369,6 +388,68 @@ section .articleFirst .buttonsBox .adquireImgButton {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footerSection {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 40vh;
+  background-color: #111827;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.footerArticle {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footerArticle h2, .footerArticle h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.footerArticle h2 {
+  color: #fff;
+}
+.footerArticle p {
+  font-size: 1rem;
+  color: #9CA3AF;
+}
+.footerArticle ul {
+  list-style: none;
+  padding: 0;
+}
+.footerArticle a {
+  font-size: 1rem;
+  color: #9CA3AF;
+  text-decoration: none;
+}
+.footerArticle .socialMediaIcons {
+  display: flex;
+  gap: 1rem;
+}
+.footerArticle .socialMediaIcons img {
+  width: 2vw;
+  cursor: pointer;
+}
+
+.bottomFooter {
+  width: 100%;
+  height: 10vh;
+  border-top: 2px solid #000;
+  background-color: #111827;
+  border-radius: 0 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomFooter p {
+  font-size: 1rem;
+  color: #f3f5f8;
 }
 
 @media (max-width: 700px) {
