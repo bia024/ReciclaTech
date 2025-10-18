@@ -137,17 +137,17 @@
       <!-- faz sentido ter uma section dentro de uma article, e uma article contendo uma div, e uma div conter uma section? vou analisar isso com calma -->
       <article>
         <h2>Produtos disponíveis</h2>
-        <p>
-            Categorias mais populares
+        <p class="popularCategories-paragraph">
+          Categorias mais populares
         </p>
         <div class="categories">
           <section class="category">
             <img src="./assets/headphone.jpg" alt="Headphones" />
             <h3>Fones</h3>
             <p>
-                Fones em ótimo estado, prontos para uso.
+              Fones em ótimo estado, prontos para uso.
             </p>
-            <button>Quero adquirir</button>
+            <button id="getHere">Quero adquirir</button>
           </section>
           <section class="category">
             <img src="./assets/notebook.jpg" alt="Notebooks" />
@@ -169,11 +169,12 @@
       </article>
     </section>  
     <section class="fourthPart" id="feedbacks">
-      <article>
+      <!-- <article> -->
         <h2>"O que o pessoal tá falando?"</h2>
         <p>
             Histórias reais de quem já usou a plataforma
         </p>
+        
         <div class="histories">
           <section class="commits">
             <img src="./assets/star.png" alt="Star" />
@@ -181,10 +182,10 @@
               Doei meu notebook antigo e em dois dias já tinha alguém interessado!
               Ver a felicidade do estudante que recebeu não tem preço!
             </p>
-            <div class="names">
+            <img class="historiesPhoto" src="./assets/doadores.png" alt="">
             <!-- <figure> -->
               <!-- devo usar figure? -->
-              <img src="./assets/doadores.png" alt="">
+              <!-- <img class="historiesPhoto" src="./assets/doadores.png" alt=""> -->
                 <!-- <figcaption>João Santos</figcaption> -->
             <!-- </figure> -->
               <div class="names">
@@ -193,33 +194,62 @@
               </div>
           </section>
           <section class="commits">
-            <img src="./assets/star.png" alt="Star" />
+            <img class="historiesPhoto" src="./assets/star.png" alt="Star" />
               <p>
                   Consegui um Iphone 12 em perfeito estado!
                   A dona anterior cuidou super bem. 
                   Economizei uma grana e ainda ajudei o meio-ambiente!
               </p>
+              <!-- criar um box contendo 2 caixas, e dar display: flex, p ficar na mesma linha -->
+              <img class="historiesPhoto" src="./assets/adquirintes.png" alt="Adquirentes" />
             <div class="names">
-              <img src="./assets/adquirintes.png" alt="Adquirentes" />
+              <!-- <img class="historiesPhoto" src="./assets/adquirintes.png" alt="Adquirentes" /> -->
               <h3>Maria Silva</h3>
               <p>Adquirente</p>
             </div>
           </section>
           <section class="commits">
-            <img src="./assets/star.png" alt="Star" />
+            <img class="historiesPhoto" src="./assets/star.png" alt="Star" />
             <p>
                 Plataforma incrível! Já doei 3 itens e adquiri 2.
                 A comunidade é super respeitosa e o processo é muito fácil! 👏Super recomendo!
             </p>
+            <img class="historiesPhoto" src="./assets/iconUser.png" alt="Icon User Ativo" />
             <div class="names">
-              <img src="./assets/iconUser.png" alt="Icon User Ativo" />
+              <!-- <img class="historiesPhoto" src="./assets/iconUser.png" alt="Icon User Ativo" /> -->
               <h3>Ana Costa</h3>
               <p>Usuária ativa</p>
             </div>
           </section>
         </div>
+      <!-- </article> -->
+    </section>
+    <section class="areUReady">
+      <article class="readyArticle">
+        <h2>Pronto para fazer a diferença?</h2>
+        <!-- <p>Junte-se a nós e comece a reciclar hoje mesmo!</p> -->
+        <p>Junte-se a nossa comunidade e ajude a criar um mundo mais sustentável. Um eletrônico de cada vez!</p>
       </article>
+      <div class="clickHere">
+        <button id="startNow">Comece agora!</button>
+        <button id="knowMoreAbout">Saiba mais</button>
+      </div>
     </section>
   </main>
+  <footer>
+
+
+
+    <article>
+      <h2>ReciclaTech</h2>
+      <p>Conectando pessoas através da sustentabilidade e tecnologia. Transformando vidas.</p>
+      <div class="socialMediaIcons">
+        <a href="#"><img src="./assets/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="./assets/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="./assets/email.png" alt="Instagram"></a>
+      </div>
+    </article>
+    <p>&copy; 2025 ReciclaTech. Todos os direitos reservados. Feito com 💚 para um mundo melhor.</p>
+  </footer>
 </body>
 </html>
