@@ -535,16 +535,17 @@ article .popularCategoriesparagraph {
   }
   .buttonsBox {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     justify-content: center;
     gap: 3vw;
   }
   .buttonsBox button {
     width: 65vw;
-    height: 8vh;
+    height: 9vh;
     font-size: 1rem;
     border-radius: 2rem;
+    width: 55vw;
   }
   .buttonsBox img {
     width: 5vw;
