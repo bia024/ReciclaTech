@@ -726,6 +726,7 @@ article .popularCategoriesparagraph {
     padding: 0 2vw;
   }
   .areUReady button {
+    width: 55vw;
     height: 9vh;
     font-size: 1rem;
     border-radius: 2rem;
