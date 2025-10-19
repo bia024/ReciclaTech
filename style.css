@@ -41,7 +41,6 @@ body h1, body h2 {
 }
 #header img {
   padding-left: 1rem;
-  width: 15vw;
 }
 #header .navigationBar {
   width: 60%;
@@ -475,6 +474,7 @@ article .popularCategoriesparagraph {
 @media (max-width: 700px) {
   header {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     padding: 1rem;
   }

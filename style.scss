@@ -51,7 +51,7 @@ border: 1px solid rgba(255,255,255,0.1);
 
     img {
         padding-left: 1rem;
-        width: 15vw;  
+        // width: 15vw;  
     }
 
     .navigationBar{
@@ -620,8 +620,9 @@ article .popularCategoriesparagraph {
     header {
         // width: 100%;
         // border: solid;
+        // padding: 0;
         display: flex;
-        // flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         padding: 1rem;
         .navigationBar {
