@@ -32,7 +32,10 @@ body {
 
 #header {
     border-radius: 30px 0 0 0;
-    background-color: #f3f5f89a;
+    // background-color: #f3f5f89a;
+    background-color: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(8px);
+border: 1px solid rgba(255,255,255,0.1);
    
 
     width: 100%;
@@ -55,20 +58,22 @@ body {
         width: 60%;
         display: flex;
         justify-content: space-evenly;
+        border: solid;
     }
 
     .navigationBar ul {
-        width: 100%;
+        border: solid;
+        width: 60%;
         font-size: 20px;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .navigationBar li{
         font-weight: bold;
         font-family: "Poppins", sans-serif;
-       font-weight: 600;
+        font-weight: 600;
         list-style: none;
     }
 
@@ -105,7 +110,10 @@ body {
 
 section {
     height: 80vh;
-    background-color: #f3f5f89a;
+    // background-color: #f3f5f89a;
+    background-color: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(8px);
+border: 1px solid rgba(255,255,255,0.1);
     display: flex;
 
     .articleFirst {
@@ -200,19 +208,20 @@ section {
         font-size: 3rem;
         // deixo 3rem ou 25px?
         font-weight: bold;
-        text-shadow: 0 2px 1px #000 ;
+        text-shadow: 2px 3px 1px #000 ;
     }
 
     p {
         // font-size: 1.5rem;
         // font-weight: bold;
         color:#f3f5f8;
-        text-shadow: 0 2px 1px #000;
+        text-shadow: 2px 3px 1px #000;
     }
 }
 
 #howWorks {
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     // padding: 2rem;
@@ -301,16 +310,19 @@ section {
 #availableProducts {
     // padding: 0.5rem 0 0 1rem;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     padding: 2rem;
     // border: solid;
     // text-align: center;
-    p {
+}
+
+article .popularCategoriesparagraph {
         // font-size: rem;
         // color: #222;
         // text-align: center;
         font-family: "Poppins", sans-serif;
-    }
+        // padding: 1rem; don't use
+        font-size: 2rem;
 }
 
 .categories{
@@ -351,11 +363,6 @@ section {
 
     }
 }
-.popularCategories-paragraph {
-        padding: 1rem;
-        
-        font-size: 1rem;
-    }
 
 #feedbacks {
     width: 100%;
@@ -449,10 +456,22 @@ section {
 
 
 .areUReady {
+    // border: solid;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     // background-color:#21c05c;
-    background-color: #2563eb;
+    // background-color: #2563eb;
+    // background-color: #14532d; 
+    // background-color: #1e3a8a; // azul profundo
+    // background-color: #198754; // verde bootstrap
+    // background-color: #3b82f6; // Azul Tailwind — mais suave
+    // background-color: #1e3a8a; // Azul profundo (mais "tecnológico")
+
+// background-color: rgba(255, 255, 255, 0.05);
+// backdrop-filter: blur(8px);
+// border: 1px solid rgba(255,255,255,0.1);
+
+
     color: #f3f5f8;
     // border-radius: 0 0 30px 0;
     display: flex;
@@ -462,7 +481,7 @@ section {
     // gap: 1.5rem;
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         color: #000;
         font-weight: bold;
         font-family: "Inter", sans-serif;
@@ -470,9 +489,10 @@ section {
 
     p {
         padding: 2rem;
-        font-size: 1.2rem;
+        font-size: 2rem;
         font-family: "Inter", sans-serif;
         color: #000;
+        text-align: center;
     }
 
     button {
@@ -480,7 +500,7 @@ section {
         font-size: 1.1rem;
         width: 15vw;
         height: 10vh;
-        border-radius: 5rem;
+        border-radius: 4rem;
         color:#f3f5f8;
         background-color: #2563eb;
         cursor: pointer;
@@ -495,6 +515,8 @@ section {
 }
 
 .readyArticle {
+    // border: solid;
+    width: 70vw;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -578,9 +600,10 @@ section {
 .bottomFooter {
     width: 100%;
     height: 10vh;
-    border-top: 2px solid #000;
+    border-top: 1px solid #4b5563;
     // background-color: #1F2937;
-    background-color: #111827;
+    background-color: #1f2937;
+    // background-color: #111827;
     border-radius: 0 0 30px 0;
     display: flex;
     justify-content: center;
@@ -592,6 +615,45 @@ section {
     }
 }
 
+
+@media (max-width: 700px){
+    header {
+        // width: 100%;
+        // border: solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        .navigationBar {
+            width: 100%;
+            border: solid;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            //  flex: 1;
+        }
+        .navigationBar ul {
+            // flex-direction: column;
+            // justify-content: space-between;
+            // align-items: flex-start;
+            gap: 1rem;
+            // flex: 1;
+        }
+        .navigationBar li{
+            font-size: 0.6rem;
+        }
+        img{
+            width: 40vw;
+            // height: auto;
+            margin-bottom: 1rem;
+        }
+        button {
+            width: 10vw;
+            height: 7vh;
+            flex: 1;
+        }
+    }
+}
 // @media (max-width: 700px){
 //     //adicionar um menu hamburguer com hover
 //     #header{

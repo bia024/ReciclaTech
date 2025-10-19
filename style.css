@@ -29,7 +29,10 @@ body h1, body h2 {
 
 #header {
   border-radius: 30px 0 0 0;
-  background-color: rgba(243, 245, 248, 0.6039215686);
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -44,13 +47,15 @@ body h1, body h2 {
   width: 60%;
   display: flex;
   justify-content: space-evenly;
+  border: solid;
 }
 #header .navigationBar ul {
-  width: 100%;
+  border: solid;
+  width: 60%;
   font-size: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #header .navigationBar li {
   font-weight: bold;
@@ -86,7 +91,10 @@ body h1, body h2 {
 
 section {
   height: 80vh;
-  background-color: rgba(243, 245, 248, 0.6039215686);
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
 }
 section .articleFirst {
@@ -168,15 +176,16 @@ section .articleFirst .buttonsBox .adquireImgButton {
   color: #21c05c;
   font-size: 3rem;
   font-weight: bold;
-  text-shadow: 0 2px 1px #000;
+  text-shadow: 2px 3px 1px #000;
 }
 #satisfactionSearch p {
   color: #f3f5f8;
-  text-shadow: 0 2px 1px #000;
+  text-shadow: 2px 3px 1px #000;
 }
 
 #howWorks {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -244,11 +253,13 @@ section .articleFirst .buttonsBox .adquireImgButton {
 
 #availableProducts {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   padding: 2rem;
 }
-#availableProducts p {
+
+article .popularCategoriesparagraph {
   font-family: "Poppins", sans-serif;
+  font-size: 2rem;
 }
 
 .categories {
@@ -285,11 +296,6 @@ section .articleFirst .buttonsBox .adquireImgButton {
   border: none;
   border-radius: 30px 30px 30px 30px;
   cursor: pointer;
-}
-
-.popularCategories-paragraph {
-  padding: 1rem;
-  font-size: 1rem;
 }
 
 #feedbacks {
@@ -346,8 +352,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
 
 .areUReady {
   width: 100%;
-  height: 80vh;
-  background-color: #2563eb;
+  height: 100vh;
   color: #f3f5f8;
   display: flex;
   flex-direction: column;
@@ -355,23 +360,24 @@ section .articleFirst .buttonsBox .adquireImgButton {
   align-items: center;
 }
 .areUReady h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #000;
   font-weight: bold;
   font-family: "Inter", sans-serif;
 }
 .areUReady p {
   padding: 2rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-family: "Inter", sans-serif;
   color: #000;
+  text-align: center;
 }
 .areUReady button {
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
   width: 15vw;
   height: 10vh;
-  border-radius: 5rem;
+  border-radius: 4rem;
   color: #f3f5f8;
   background-color: #2563eb;
   cursor: pointer;
@@ -384,6 +390,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
 }
 
 .readyArticle {
+  width: 70vw;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -453,8 +460,8 @@ section .articleFirst .buttonsBox .adquireImgButton {
 .bottomFooter {
   width: 100%;
   height: 10vh;
-  border-top: 2px solid #000;
-  background-color: #111827;
+  border-top: 1px solid #4b5563;
+  background-color: #1f2937;
   border-radius: 0 0 30px 0;
   display: flex;
   justify-content: center;
@@ -463,4 +470,35 @@ section .articleFirst .buttonsBox .adquireImgButton {
 .bottomFooter p {
   font-size: 1rem;
   color: #f3f5f8;
+}
+
+@media (max-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  header .navigationBar {
+    width: 100%;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .navigationBar ul {
+    gap: 1rem;
+  }
+  header .navigationBar li {
+    font-size: 0.6rem;
+  }
+  header img {
+    width: 40vw;
+    margin-bottom: 1rem;
+  }
+  header button {
+    width: 10vw;
+    height: 7vh;
+    flex: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
