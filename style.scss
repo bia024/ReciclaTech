@@ -502,7 +502,7 @@ article .popularCategoriesparagraph {
         height: 10vh;
         border-radius: 4rem;
         color:#f3f5f8;
-        background-color: #2563eb;
+        // 
         cursor: pointer;
     }
     .clickHere {
@@ -511,6 +511,13 @@ article .popularCategoriesparagraph {
         display: flex;
         justify-content: center;
         justify-content: space-evenly;
+        #startNow {
+            background-color:#21c05c;
+        }
+        #knowMoreAbout {
+             background-color: #fff;
+             color:#21c05c
+        }
     }
 }
 
@@ -954,14 +961,15 @@ article .popularCategoriesparagraph {
     }
 
     .areUReady button {
-        width: 60vw;
-        height: 8vh;
+        //tirando a largura
+        height: 9vh;
         font-size: 1rem;
         border-radius: 2rem;
     }
 
     .clickHere {
-        flex-direction: column;
+        justify-content: space-evenly;
+        // flex-direction: column;
         gap: 3vw;
         width: 100%;
     }
@@ -996,6 +1004,10 @@ article .popularCategoriesparagraph {
     }
 
     .socialMediaIcons {
+        width: 100%;
+        //width for testing
+        display: flex;
+//display too
         justify-content: center;
     }
 

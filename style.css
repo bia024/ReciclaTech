@@ -378,7 +378,6 @@ article .popularCategoriesparagraph {
   height: 10vh;
   border-radius: 4rem;
   color: #f3f5f8;
-  background-color: #2563eb;
   cursor: pointer;
 }
 .areUReady .clickHere {
@@ -386,6 +385,13 @@ article .popularCategoriesparagraph {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+}
+.areUReady .clickHere #startNow {
+  background-color: #21c05c;
+}
+.areUReady .clickHere #knowMoreAbout {
+  background-color: #fff;
+  color: #21c05c;
 }
 
 .readyArticle {
@@ -720,13 +726,12 @@ article .popularCategoriesparagraph {
     padding: 0 2vw;
   }
   .areUReady button {
-    width: 60vw;
-    height: 8vh;
+    height: 9vh;
     font-size: 1rem;
     border-radius: 2rem;
   }
   .clickHere {
-    flex-direction: column;
+    justify-content: space-evenly;
     gap: 3vw;
     width: 100%;
   }
@@ -755,6 +760,8 @@ article .popularCategoriesparagraph {
     font-size: 0.9rem;
   }
   .socialMediaIcons {
+    width: 100%;
+    display: flex;
     justify-content: center;
   }
   .socialMediaIcons img {
