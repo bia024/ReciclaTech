@@ -480,6 +480,7 @@ article .popularCategoriesparagraph {
 @media (max-width: 700px) {
   body {
     margin: 0;
+    padding: 0;
   }
   #header {
     flex-direction: column;
@@ -513,7 +514,6 @@ article .popularCategoriesparagraph {
     align-items: center;
     text-align: center;
     height: auto;
-    padding: 6vw 4vw;
   }
   .articleFirst {
     width: 100%;

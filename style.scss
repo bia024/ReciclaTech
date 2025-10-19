@@ -668,6 +668,7 @@ article .popularCategoriesparagraph {
 @media (max-width: 700px){
     body {
         margin: 0;
+        padding: 0;
         // background-attachment: scroll;
     }
 
@@ -708,7 +709,7 @@ article .popularCategoriesparagraph {
         align-items: center;
         text-align: center;
         height: auto;
-        padding: 6vw 4vw;
+        // padding: 6vw 4vw;
     }
 
     .articleFirst {
