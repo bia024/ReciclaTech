@@ -517,7 +517,6 @@ article .popularCategoriesparagraph {
         gap: 1rem;
 
         img {
-            width: 2vw;
             cursor: pointer;
             &:hover {
                 transform: scale(1.1);
@@ -908,10 +907,16 @@ article .popularCategoriesparagraph {
         justify-content: center;
     }
 
-    .socialMediaIcons img {
-        width: 12vw;
-    }
+    .socialMediaIcons {
+        border: solid aqua;
 
+        img {
+            width: 15vw;
+            height: 7vh;
+            border: solid aqua;
+    }
+}
+//trabalhar sempre com questão de caixas + borda
     .bottomFooter {
         height: auto;
         padding: 2vw 0;

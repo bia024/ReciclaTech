@@ -13,11 +13,14 @@ body {
   background-attachment: fixed;
   margin: 2rem;
 }
+
 body p {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
 }
-body h1, body h2 {
+
+body h1,
+body h2 {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
 }
@@ -30,7 +33,7 @@ body h1, body h2 {
   border-radius: 30px 0 0 0;
   background-color: rgba(255, 255, 255, 0.05);
   -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 100%;
   display: flex;
@@ -38,14 +41,17 @@ body h1, body h2 {
   align-items: center;
   border-bottom: 0.7px solid #b4aeae;
 }
+
 #header img {
   padding-left: 1rem;
 }
+
 #header .navigationBar {
   width: 60%;
   display: flex;
   justify-content: space-evenly;
 }
+
 #header .navigationBar ul {
   width: 60%;
   font-size: 20px;
@@ -53,25 +59,29 @@ body h1, body h2 {
   align-items: center;
   justify-content: space-between;
 }
+
 #header .navigationBar li {
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   list-style: none;
 }
+
 #header .navigationBar a {
   color: #000;
   text-decoration: none;
 }
+
 #header .navigationBar .material-symbols-outlined {
   display: none;
   font-size: 32px;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   padding: 5px;
 }
+
 #header #btnHeader {
   margin: 6px;
   font-weight: 600;
@@ -89,10 +99,11 @@ section {
   height: 80vh;
   background-color: rgba(255, 255, 255, 0.05);
   -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
 }
+
 section .articleFirst {
   width: 50vw;
   margin: 3rem;
@@ -100,11 +111,13 @@ section .articleFirst {
   flex-direction: column;
   gap: 2em;
 }
+
 section .articleFirst h1 {
   font-size: 3rem;
   font-weight: bold;
   font-weight: 700;
 }
+
 section .articleFirst .buttonsBox {
   width: 100%;
   display: flex;
@@ -114,6 +127,7 @@ section .articleFirst .buttonsBox {
   margin: 0;
   padding: 0;
 }
+
 section .articleFirst .buttonsBox button {
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
@@ -126,19 +140,23 @@ section .articleFirst .buttonsBox button {
   color: #f3f5f8;
   cursor: pointer;
 }
+
 section .articleFirst .buttonsBox .giveBtn {
   background-color: #21c05c;
   border-radius: 30px 0px 30px 30px;
 }
+
 section .articleFirst .buttonsBox .adquireBtn {
   background-color: #f3f5f8;
   color: #2563eb;
   border-radius: 30px 0px 30px 30px;
 }
+
 section .articleFirst .buttonsBox .giveImgButton {
   width: 2vw;
   border-radius: 30px 0px 30px 30px;
 }
+
 section .articleFirst .buttonsBox .adquireImgButton {
   width: 2vw;
 }
@@ -160,6 +178,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
   border-top: 2px solid;
   border-bottom: 2px solid;
 }
+
 #satisfactionSearch article {
   width: 100%;
   height: 30vh;
@@ -168,12 +187,14 @@ section .articleFirst .buttonsBox .adquireImgButton {
   justify-content: space-evenly;
   align-items: center;
 }
+
 #satisfactionSearch h2 {
   color: #21c05c;
   font-size: 3rem;
   font-weight: bold;
   text-shadow: 2px 3px 1px #000;
 }
+
 #satisfactionSearch p {
   color: #f3f5f8;
   text-shadow: 2px 3px 1px #000;
@@ -185,6 +206,7 @@ section .articleFirst .buttonsBox .adquireImgButton {
   display: flex;
   flex-direction: column;
 }
+
 #howWorks .paragraph {
   font-size: 1.2rem;
 }
@@ -194,48 +216,67 @@ section .articleFirst .buttonsBox .adquireImgButton {
   justify-content: space-evenly;
 }
 
-.infoWorks1, .infoWorks2 {
+.infoWorks1,
+.infoWorks2 {
   width: 30vw;
   height: 60vh;
   border-radius: 30px;
   background-color: #f3f5f8;
   color: #f3f5f8;
 }
-.infoWorks1 img, .infoWorks2 img {
+
+.infoWorks1 img,
+.infoWorks2 img {
   width: 3vw;
 }
-.infoWorks1 figure, .infoWorks2 figure {
+
+.infoWorks1 figure,
+.infoWorks2 figure {
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.infoWorks1 figure figcaption, .infoWorks2 figure figcaption {
+
+.infoWorks1 figure figcaption,
+.infoWorks2 figure figcaption {
   font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
 }
-.infoWorks1 figure .toDonors, .infoWorks2 figure .toDonors {
+
+.infoWorks1 figure .toDonors,
+.infoWorks2 figure .toDonors {
   color: #21c05c;
   width: 15vw;
 }
-.infoWorks1 figure .toAdquirentes, .infoWorks2 figure .toAdquirentes {
+
+.infoWorks1 figure .toAdquirentes,
+.infoWorks2 figure .toAdquirentes {
   color: #2563eb;
   width: 15vw;
 }
-.infoWorks1 p, .infoWorks2 p {
+
+.infoWorks1 p,
+.infoWorks2 p {
   font-size: 1.2rem;
   color: #000;
 }
-.infoWorks1 ol, .infoWorks2 ol {
+
+.infoWorks1 ol,
+.infoWorks2 ol {
   padding: 1.5rem;
   color: #000;
   font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
 }
-.infoWorks1 li, .infoWorks2 li {
+
+.infoWorks1 li,
+.infoWorks2 li {
   padding: 0.5rem;
 }
-.infoWorks1 p, .infoWorks2 p {
+
+.infoWorks1 p,
+.infoWorks2 p {
   text-align: center;
 }
 
@@ -277,10 +318,12 @@ article .popularCategoriesparagraph {
   gap: 0.5rem;
   align-items: center;
 }
+
 .category img {
   width: 20vw;
   height: 30vh;
 }
+
 .category button {
   background-color: #21c05c;
   color: #f3f5f8;
@@ -301,6 +344,7 @@ article .popularCategoriesparagraph {
   flex-direction: column;
   padding: 3rem;
 }
+
 #feedbacks img {
   width: 7vw;
 }
@@ -309,6 +353,7 @@ article .popularCategoriesparagraph {
   width: 100%;
   display: flex;
 }
+
 .histories .commits {
   background-color: #fff;
   border: groove;
@@ -320,6 +365,7 @@ article .popularCategoriesparagraph {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .histories .commits .historiesPhoto {
   border: none;
 }
@@ -355,12 +401,14 @@ article .popularCategoriesparagraph {
   justify-content: center;
   align-items: center;
 }
+
 .areUReady h2 {
   font-size: 3rem;
   color: #000;
   font-weight: bold;
   font-family: "Inter", sans-serif;
 }
+
 .areUReady p {
   padding: 2rem;
   font-size: 2rem;
@@ -368,6 +416,7 @@ article .popularCategoriesparagraph {
   color: #000;
   text-align: center;
 }
+
 .areUReady button {
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
@@ -377,15 +426,18 @@ article .popularCategoriesparagraph {
   color: #f3f5f8;
   cursor: pointer;
 }
+
 .areUReady .clickHere {
   width: 50%;
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
 }
+
 .areUReady .clickHere #startNow {
   background-color: #21c05c;
 }
+
 .areUReady .clickHere #knowMoreAbout {
   background-color: #fff;
   color: #21c05c;
@@ -417,39 +469,48 @@ article .popularCategoriesparagraph {
   flex-direction: column;
   gap: 1rem;
 }
-.footerArticle h2, .footerArticle h3 {
+
+.footerArticle h2,
+.footerArticle h3 {
   font-size: 1.5rem;
   color: #fff;
   font-weight: bold;
 }
+
 .footerArticle h2 {
   color: #fff;
 }
+
 .footerArticle p {
   font-size: 1rem;
   color: #9CA3AF;
 }
+
 .footerArticle ul {
   list-style: none;
   padding: 0;
 }
+
 .footerArticle a {
   font-size: 1rem;
   color: #9CA3AF;
   text-decoration: none;
 }
+
 .footerArticle .socialMediaIcons {
   display: flex;
   gap: 1rem;
 }
+
 .footerArticle .socialMediaIcons img {
-  width: 2vw;
   cursor: pointer;
 }
+
 .footerArticle .socialMediaIcons img:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
+
 .footerArticle .socialMediaIcons img:hover .socialMediaIcons img {
   filter: brightness(1.4);
 }
@@ -469,6 +530,7 @@ article .popularCategoriesparagraph {
   justify-content: center;
   align-items: center;
 }
+
 .bottomFooter p {
   font-size: 1rem;
   color: #f3f5f8;
@@ -479,6 +541,7 @@ article .popularCategoriesparagraph {
     margin: 0;
     padding: 0;
   }
+
   #header {
     flex-direction: column;
     align-items: center;
@@ -486,19 +549,23 @@ article .popularCategoriesparagraph {
     padding: 4vw;
     gap: 2vw;
   }
+
   #header img {
     width: 35vw;
     margin-bottom: 2vw;
   }
+
   #header .navigationBar {
     display: none;
   }
+
   #header .material-symbols-outlined {
     display: block;
     font-size: 8vw;
     color: #000;
     cursor: pointer;
   }
+
   #btnHeader {
     width: 55vw;
     font-size: 1rem;
@@ -506,12 +573,14 @@ article .popularCategoriesparagraph {
     border-radius: 2rem;
     margin-top: 2vw;
   }
+
   section {
     flex-direction: column;
     align-items: center;
     text-align: center;
     height: auto;
   }
+
   .articleFirst {
     width: 100%;
     display: flex;
@@ -519,15 +588,18 @@ article .popularCategoriesparagraph {
     align-items: center;
     gap: 3vw;
   }
+
   .articleFirst h1 {
     font-size: 2rem;
     line-height: 1.3;
   }
+
   .articleFirst p {
     font-size: 1.5rem;
     line-height: 1.6;
     max-width: 90%;
   }
+
   .buttonsBox {
     display: flex;
     justify-content: space-evenly;
@@ -536,6 +608,7 @@ article .popularCategoriesparagraph {
     gap: 3vw;
     width: 100%;
   }
+
   .buttonsBox button {
     width: 65vw;
     height: 9vh;
@@ -543,47 +616,58 @@ article .popularCategoriesparagraph {
     border-radius: 2rem;
     width: 55vw;
   }
+
   .buttonsBox img {
     width: 5vw;
   }
+
   .imgMainSection {
     width: 70vw;
   }
+
   .sustentableImg {
     width: 100%;
     height: auto;
   }
+
   #satisfactionSearch {
     height: auto;
     padding: 6vw 4vw;
   }
+
   #satisfactionSearch article {
     height: auto;
   }
+
   #satisfactionSearch h2 {
     font-size: 2rem;
     text-align: center;
   }
+
   #satisfactionSearch p {
     font-size: 1rem;
     text-align: center;
   }
+
   #howWorks {
     height: auto;
     padding: 6vw 4vw;
   }
+
   #howWorks .paragraph {
     font-size: 1rem;
     line-height: 1.6;
     text-align: center;
     margin-bottom: 4vw;
   }
+
   .howWorks-article {
     flex-direction: column;
     align-items: center;
     gap: 4vw;
     padding: 4vw 0;
   }
+
   .infoWorks1,
   .infoWorks2 {
     width: 90%;
@@ -592,26 +676,31 @@ article .popularCategoriesparagraph {
     border-radius: 1rem;
     padding: 4vw;
   }
+
   .infoWorks1 figure,
   .infoWorks2 figure {
     flex-direction: column;
     gap: 2vw;
   }
+
   .infoWorks1 figure img,
   .infoWorks2 figure img {
     width: 12vw;
     height: auto;
   }
+
   .infoWorks1 figcaption,
   .infoWorks2 figcaption {
     font-size: 1rem;
     text-align: center;
   }
+
   .toDonors,
   .toAdquirentes {
     width: 50%;
     text-align: center;
   }
+
   .infoWorks1 p,
   .infoWorks2 p,
   .infoWorks1 ol,
@@ -621,17 +710,20 @@ article .popularCategoriesparagraph {
     font-size: 0.9rem;
     text-align: center;
   }
+
   #donors {
     flex-direction: column;
     align-items: center;
     gap: 4vw;
   }
+
   .names {
     width: 80%;
     text-align: center;
     font-size: 0.9rem;
     margin-bottom: 2vw;
   }
+
   .commits {
     width: 90%;
     height: auto;
@@ -639,30 +731,36 @@ article .popularCategoriesparagraph {
     padding: 4vw;
     border-radius: 1rem;
   }
+
   .historiesPhoto {
     width: 20vw;
     height: auto;
     margin-bottom: 2vw;
   }
+
   .commits h3,
   .commits p {
     font-size: 0.9rem;
     text-align: center;
   }
+
   #availableProducts {
     height: auto;
     padding: 6vw 4vw;
   }
+
   article .popularCategoriesparagraph {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 4vw;
   }
+
   .categories {
     flex-direction: column;
     align-items: center;
     gap: 4vw;
   }
+
   .category {
     width: 90%;
     margin: 2vw 0;
@@ -670,11 +768,13 @@ article .popularCategoriesparagraph {
     border-radius: 1rem;
     gap: 2vw;
   }
+
   .category img {
     width: 100%;
     height: auto;
     border-radius: 0.5rem;
   }
+
   .category button {
     width: 60vw;
     height: 8vh;
@@ -682,26 +782,31 @@ article .popularCategoriesparagraph {
     border-radius: 2rem;
     margin-top: 2vw;
   }
+
   .category p {
     font-size: 1rem;
     text-align: center;
   }
+
   #feedbacks {
     flex-direction: column;
     align-items: center;
     padding: 6vw 4vw;
     height: auto;
   }
+
   #feedbacks img {
     width: 20vw;
     height: auto;
     margin-bottom: 2vw;
   }
+
   .histories {
     flex-direction: column;
     gap: 4vw;
     width: 100%;
   }
+
   .areUReady {
     flex-direction: column;
     align-items: center;
@@ -711,30 +816,36 @@ article .popularCategoriesparagraph {
     text-align: center;
     gap: 4vw;
   }
+
   .areUReady h2 {
     font-size: 2rem;
     line-height: 1.3;
   }
+
   .areUReady p {
     font-size: 1.2rem;
     line-height: 1.5;
     padding: 0 2vw;
   }
+
   .areUReady button {
     width: 55vw;
     height: 9vh;
     font-size: 1rem;
     border-radius: 2rem;
   }
+
   .clickHere {
     justify-content: space-evenly;
     gap: 3vw;
     width: 100%;
   }
+
   .readyArticle {
     width: 90%;
     padding: 4vw;
   }
+
   .footerSection {
     flex-direction: column;
     align-items: center;
@@ -742,33 +853,48 @@ article .popularCategoriesparagraph {
     padding: 6vw 4vw;
     height: auto;
   }
+
   .footerArticle {
     width: 90%;
     text-align: center;
     gap: 2vw;
   }
+
   .footerArticle h2,
   .footerArticle h3 {
     font-size: 1.2rem;
   }
+
   .footerArticle p,
   .footerArticle a {
     font-size: 0.9rem;
   }
+
   .socialMediaIcons {
     width: 100%;
     display: flex;
     justify-content: center;
   }
-  .socialMediaIcons img {
-    width: 12vw;
+
+  .socialMediaIcons {
+    border: solid aqua;
   }
+
+  .socialMediaIcons img {
+    width: 15vw;
+    height: 7vh;
+    border: solid aqua;
+  }
+
   .bottomFooter {
     height: auto;
     padding: 2vw 0;
   }
+
   .bottomFooter p {
     font-size: 0.9rem;
     text-align: center;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
