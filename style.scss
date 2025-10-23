@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-// h1
 body {
     /*background-image: url(./assets/earth.jpg);*/
     background-image: url(./assets/capa-artigo-sustentabilidade.jpg);
@@ -12,7 +11,6 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    // height: 200vh; used example with 200vh
     margin: 2rem;
 
     p {
@@ -32,18 +30,11 @@ body {
 
 #header {
     border-radius: 30px 0 0 0;
-    // background-color: #f3f5f89a;
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255,255,255,0.1);
-   
-
     width: 100%;
-    // position: fixed; 
     //NAO ATIVAR. SE ATIVAR, VAI FICAR POR CIMA DO ARTICLE
-    // margin: 1rem;
-    // padding: 0.5rem;;
-    //talvez mexer no padding ou tirar
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +42,6 @@ body {
 
     img {
         padding-left: 1rem;
-        // width: 15vw;  
     }
 
     .navigationBar{
@@ -97,28 +87,21 @@ body {
         color: #f3f5f8;
         background-color: #21c05c;
         border: none;
-        // border-radius: 8px;
-        border-radius: 30px 0px 30px 30px;
+        border-radius: 30px 30px 30px 30px;
         cursor: pointer;
     }
 }
 
-
-//MAIN
-
 section {
-    height: 80vh;
-    // background-color: #f3f5f89a;
-    background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.1);
+    // border: 1px solid rgba(255,255,255,0.1);
     display: flex;
+    flex: 1;
 
     .articleFirst {
-    width: 50vw;
     margin: 3rem;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     gap: 2em;
 
     h1{
@@ -126,13 +109,9 @@ section {
         font-weight: bold;
         font-weight: 700;
     }
-    // p{
-    //     font-size: 1.2rem;
-    // }
 
     .buttonsBox {
         width: 100%;
-        // height: 1vh;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -148,20 +127,19 @@ section {
         justify-content: space-evenly;
         width: 13vw;
         height: 10vh;
-        border-radius: 5rem;
         color:#f3f5f8;
         cursor: pointer;
         }
 
         .giveBtn {
             background-color:#21c05c;
-            border-radius: 30px 0px 30px 30px;
+            border-radius: 30px 30px 30px 30px;
         }
 
         .adquireBtn {
             background-color:#f3f5f8;
             color:#2563eb;
-            border-radius: 30px 0px 30px 30px;
+            border-radius: 30px 30px 30px 30px;
         }
         .giveImgButton{
             width: 2vw;
@@ -170,13 +148,13 @@ section {
         .adquireImgButton {
             width: 2vw;
         }
+        
     }
 }
 }
 .sustentableImg {
     width: 20vw;
     height:60vh;
-    // margin: 2rem;
 }
 
 .imgMainSection {
@@ -209,8 +187,6 @@ section {
     }
 
     p {
-        // font-size: 1.5rem;
-        // font-weight: bold;
         color:#f3f5f8;
         text-shadow: 2px 3px 1px #000;
     }
@@ -221,8 +197,6 @@ section {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    // padding: 2rem;
-    // text-align: center;
 
    .paragraph{
         font-size: 1.2rem;
@@ -230,9 +204,6 @@ section {
 }
 
 #donors {
-
-    // height: 150vh;
-    // padding: 2rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -242,7 +213,6 @@ section {
     height: 60vh;
     border-radius: 30px;
     background-color: #f3f5f8;
-    // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color:#f3f5f8;
 
     img{
@@ -257,7 +227,6 @@ section {
         figcaption {
             font-size: 1.4rem;
             font-family: "Poppins", sans-serif;
-            // font-weight: bold;
         }
         .toDonors {
             color:#21c05c;
@@ -308,9 +277,7 @@ section {
 }
 
 article .popularCategoriesparagraph {
-        // color: #222;
         font-family: "Poppins", sans-serif;
-        // padding: 1rem; don't use
         font-size: 2rem;
 }
 
@@ -368,7 +335,7 @@ article .popularCategoriesparagraph {
     
     .commits {
         background-color:#fff;
-        border: groove;
+        // border: groove;
         border-radius: 10px;;
         margin: 1rem;
         padding: 1rem;
@@ -386,11 +353,6 @@ article .popularCategoriesparagraph {
     width: 10vw;
     font-family: "Inter", sans-serif;
 }
-
-// .commits h3 {
-//     font-size: 1.5rem;
-//     font-weight: bold;
-// }
 
 .articleFirst p {
     font-size: 1.2rem;
@@ -413,7 +375,6 @@ article .popularCategoriesparagraph {
 .areUReady {
     width: 100%;
     height: 100vh;
-
     color: #f3f5f8;
     display: flex;
     flex-direction: column;
@@ -461,7 +422,8 @@ article .popularCategoriesparagraph {
 
 .readyArticle {
     width: 70vw;
-    padding: 2rem;
+    padding: 1.5rem;
+    // border: solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -476,7 +438,6 @@ article .popularCategoriesparagraph {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    // gap: 2rem;
     padding: 2rem;
 }
 
@@ -595,7 +556,6 @@ article .popularCategoriesparagraph {
         align-items: center;
         text-align: center;
         height: auto;
-        // padding: 6vw 4vw;
     
     }
 
@@ -605,13 +565,11 @@ article .popularCategoriesparagraph {
         flex-direction: column;
         align-items: center;
         gap: 3vw;
-        // margin-bottom: 6vw;
     }
 
     .articleFirst h1 {
         font-size: 2rem;
         line-height: 1.3;
-        // max-width: 85%; maybe not necessary
     }
 
     .articleFirst p {
@@ -622,12 +580,10 @@ article .popularCategoriesparagraph {
 
     .buttonsBox {
         display: flex;
-        // flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         justify-content: center;
         gap: 3vw;
-        // flex: 4rem;
         width: 100%;
     }
 
@@ -637,7 +593,6 @@ article .popularCategoriesparagraph {
         font-size: 1rem;
         border-radius: 2rem;
         width: 55vw;
-        //tirando a largura
 
     }
 
@@ -648,8 +603,6 @@ article .popularCategoriesparagraph {
 
     .imgMainSection {
         width: 70vw;
-        // display: flex;
-        // justify-content: center; not necessary 
     }
 
     .sustentableImg {
@@ -857,7 +810,6 @@ article .popularCategoriesparagraph {
 
     .areUReady button {
         width: 55vw;
-        //tirando a largura
         height: 9vh;
         font-size: 1rem;
         border-radius: 2rem;
@@ -865,7 +817,6 @@ article .popularCategoriesparagraph {
 
     .clickHere {
         justify-content: space-evenly;
-        // flex-direction: column;
         gap: 3vw;
         width: 100%;
     }
@@ -901,19 +852,17 @@ article .popularCategoriesparagraph {
 
     .socialMediaIcons {
         width: 100%;
-        //width for testing
         display: flex;
-//display too
         justify-content: center;
     }
 
     .socialMediaIcons {
-        border: solid aqua;
+        // border: solid aqua;
 
         img {
             width: 15vw;
             height: 7vh;
-            border: solid aqua;
+            // border: solid aqua;
     }
 }
 //trabalhar sempre com questão de caixas + borda
@@ -927,17 +876,3 @@ article .popularCategoriesparagraph {
         text-align: center;
     }
 }
-
-
-// @media (max-width: 700px){
-//     //adicionar um menu hamburguer com hover
-//     #header{
-//         display: flex;
-//         flex-direction: column;
-//         align-items: flex-start;
-//         padding: 1rem;
-//     }
-//     h1{
-//         font-size: 50px;;
-//     }
-// }

@@ -27,13 +27,13 @@
         <li><a href="#">Como Funciona?</a></li>
         <li><a href="#">Doar</a></li>
         <li><a href="#">Adquirir</a></li>
-        <!-- <button id="btnCabeçalho">Começar Agora</button> -->
       </ul>
       <button id="btnHeader">Começar Agora</button>
     </nav>
-    <!-- <button id="btnHeader">Começar Agora</button> -->
   </header>
   <main>
+    <!-- caixa pr a guardar h1, p buttons  -->
+     <!-- caixa pra guardar a imagem -->
     <section id="apresentation">
       <article class="articleFirst">
           <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
@@ -50,10 +50,10 @@
             </button>
           </div>
         </article>
-        <div class="imgMainSection">
+        <section class="imgMainSection">
           <!-- de prefereência, section -->
           <img class="sustentableImg" src="./assets/sustentabilidade.png" alt="logo-sustentable"/>
-        </div>
+        </section>
     </section>
     <section id="satisfactionSearch">
       <!-- O ideal é div -->
@@ -94,15 +94,15 @@
           </p>
           <ol class="giveList">
             <li>
-              <strong>Cadastre seu eletrônico</strong>
+              <strong>Cadastre seu eletrônico</strong><br>
               <span>Tire umas fotos, descreva o estado e pronto!</span>
             </li>
             <li>
-              <strong>Aguarde o "Match"</strong>
+              <strong>Aguarde o "Match"</strong><br>
               <span>Alguém vai se interessar pelo seu item!</span>
             </li>
             <li>
-              <strong>Combine a entrega</strong>
+              <strong>Combine a entrega</strong><br>
               <span>Vocês decidem como fazer a entrega!</span>
             </li>
           </ol>
@@ -117,15 +117,15 @@
           </p>
           <ol class="getList">
             <li>
-              <strong>Explore os itens</strong>
+              <strong>Explore os itens</strong><br>
               <span>Navegue pelos eletrônicos disponíveis!</span>
             </li>
             <li>
-              <strong>Demonstre interesse</strong>
+              <strong>Demonstre interesse</strong><br>
               <span>Clique em "Tenho Interesse" no item!</span>
             </li>
             <li>
-              <strong>Receba seu novo gadget</strong>
+              <strong>Receba seu novo gadget</strong><br>
               <span>Combine com o doador e seja feliz!</span>
             </li>
           </ol>
@@ -168,6 +168,7 @@
       </article>
     </section>  
     <section class="fourthPart" id="feedbacks">
+      <!-- <article> -->
         <h2>"O que o pessoal tá falando?"</h2>
         <p>
           Histórias reais de quem já usou a plataforma
@@ -180,7 +181,12 @@
               Doei meu notebook antigo e em dois dias já tinha alguém interessado!
               Ver a felicidade do estudante que recebeu não tem preço!
             </p>
-            <img class="historiesPhoto" src="./assets/doadores.png" alt="donors-Photo">
+            <img class="historiesPhoto" src="./assets/doadores.png" alt="">
+            <!-- <figure> -->
+              <!-- devo usar figure? -->
+              <!-- <img class="historiesPhoto" src="./assets/doadores.png" alt=""> -->
+                <!-- <figcaption>João Santos</figcaption> -->
+            <!-- </figure> -->
               <div class="names">
                 <h3>João Santos</h3>
                 <p class="donorsParagraph">Doador</p>
@@ -195,7 +201,8 @@
               </p>
               <!-- criar um box contendo 2 caixas, e dar display: flex, p ficar na mesma linha -->
               <img class="historiesPhoto" src="./assets/adquirintes.png" alt="Adquirentes" />
-            <div class="names"></div>
+            <div class="names">
+              <!-- <img class="historiesPhoto" src="./assets/adquirintes.png" alt="Adquirentes" /> -->
               <h3>Maria Silva</h3>
               <p>Adquirente</p>
             </div>
@@ -208,15 +215,18 @@
             </p>
             <img class="historiesPhoto" src="./assets/iconUser.png" alt="Icon User Ativo" />
             <div class="names">
+              <!-- <img class="historiesPhoto" src="./assets/iconUser.png" alt="Icon User Ativo" /> -->
               <h3>Ana Costa</h3>
               <p>Usuária ativa</p>
             </div>
           </section>
         </div>
+      <!-- </article> -->
     </section>
     <section class="areUReady">
       <article class="readyArticle">
         <h2>Pronto para fazer a diferença?</h2>
+        <!-- <p>Junte-se a nós e comece a reciclar hoje mesmo!</p> -->
         <p>Junte-se a nossa comunidade e ajude a criar um mundo mais sustentável. Um eletrônico de cada vez!</p>
       </article>
       <div class="clickHere">
