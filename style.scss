@@ -101,7 +101,7 @@ section {
     .articleFirst {
     margin: 3rem;
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     gap: 2em;
 
     h1{
@@ -556,7 +556,7 @@ article .popularCategoriesparagraph {
         align-items: center;
         text-align: center;
         height: auto;
-    
+
     }
 
     .articleFirst {
