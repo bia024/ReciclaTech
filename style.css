@@ -105,16 +105,23 @@ section .articleFirst h1 {
 section .articleFirst .buttonsBox {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
+  font-size: 1.5rem;
   gap: 2rem;
+  /* flex: 1; */
   margin: 0;
   padding: 0;
 }
 section .articleFirst .buttonsBox button {
   font-family: "Poppins", sans-serif;
-  width: 20vw;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
   height: 10vh;
+  /* flex: 1; */
   border: solid;
   color: #f3f5f8;
   cursor: pointer;
@@ -341,7 +348,7 @@ article .popularCategoriesparagraph {
 .areUReady {
   width: 100%;
   height: 100vh;
-  color: #f3f5f8;
+  /* color: #f3f5f8; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -367,6 +374,7 @@ article .popularCategoriesparagraph {
   height: 10vh;
   border-radius: 4rem;
   color: #f3f5f8;
+  border: solid;
   cursor: pointer;
 }
 .areUReady .clickHere {
@@ -520,10 +528,12 @@ article .popularCategoriesparagraph {
     max-width: 90%;
   }
   .buttonsBox {
+    /* width: 100vw; */
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid;
+    /* justify-content: space-evenly; */
+    /* border: solid; */
     width: 100%;
   }
   .buttonsBox button {
